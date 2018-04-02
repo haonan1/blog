@@ -6,7 +6,7 @@ function initMap(){
     }
     function createMap(){ 
       map = new BMap.Map("map"); 
-      map.centerAndZoom(new BMap.Point(116.482565,39.912019),17);//116.483349,39.912975
+      map.centerAndZoom(new BMap.Point(117.152628,36.682181),17);//116.483349,39.912975
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
