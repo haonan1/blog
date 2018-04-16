@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,7 +44,7 @@
         <li><a href="contact.html" class="v1">联系我们</a></li>
     </ul>
 </div>
-<div class="c"></div>	<div id="bd">
+<div class="c"></div>   <div id="bd">
 <div id="banner">
     <div class="banner-bg"></div>
     <div class="flexslider">
@@ -145,7 +144,7 @@
         </ul>
     </div>
 </div>
-<div class="row2 fix">
+<div class="ul-case">
     <div class="wp">
         <div class="tit-i">
             <h3>华开案例</h3>
@@ -156,100 +155,78 @@
                 <ul class="ul-case-i">
                     <li>
                         <a href="case_info_4_110.html">
-                            <div class="pic"><img src="images/14429937588106.jpg"></div>
+                            <div class="pic"><img src="images/14446391053281.png"></div>
                             <div class="hover">
                                 <b></b>
                                 <div class="txt">
                                     <img src="images/logo_small.png" alt="">
-                                    <h3>LMP品牌站官网</h3>
+                                    <h3>智慧银行</h3>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="case_info_4_54.html">
-                            <div class="pic"><img src="images/14425590613750.jpg"></div>
+                            <div class="pic"><img src="images/14423045107241.png"></div>
                             <div class="hover">
                                 <b></b>
                                 <div class="txt">
                                     <img src="images/logo_small.png" alt="">
-                                    <h3>连洋鞋业网站</h3>
+                                    <h3>版权系统</h3>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="case_info_4_52.html">
-                            <div class="pic"><img src="images/14423045107241.jpg"></div>
+                            <div class="pic"><img src="images/14446394304458.png"></div>
                             <div class="hover">
                                 <b></b>
                                 <div class="txt">
                                     <img src="images/logo_small.png" alt="">
-                                    <h3>礼悦利达</h3>
+                                    <h3>党建平台</h3>
                                 </div>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="case_info_4_49.html">
-                            <div class="pic"><img src="images/14423036593132.jpg"></div>
+                            <div class="pic"><img src="images/14429898301265.png"></div>
                             <div class="hover">
                                 <b></b>
                                 <div class="txt">
                                     <img src="images/logo_small.png" alt="">
-                                    <h3>竣腾影业网站</h3>
+                                    <h3>煤矿系统</h3>
                                 </div>
                             </div>
                         </a>
                     </li>
+                    
                     <li>
-                        <a href="case_info_4_20.html">
-                            <div class="pic"><img src="images/14422959085097.jpg"></div>
+                        <a href="case_info_4_49.html">
+                            <div class="pic"><img src="images/14429888454624.png"></div>
                             <div class="hover">
                                 <b></b>
                                 <div class="txt">
                                     <img src="images/logo_small.png" alt="">
-                                    <h3>国家信息安全中心网站</h3>
+                                    <h3>找柚网</h3>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a href="case_info_4_102.html">
-                            <div class="pic"><img src="images/14429911135818.jpg"></div>
+<li>
+                        <a href="case_info_4_49.html">
+                            <div class="pic"><img src="images/14429937588106.png"></div>
                             <div class="hover">
                                 <b></b>
                                 <div class="txt">
                                     <img src="images/logo_small.png" alt="">
-                                    <h3>中亿行官网</h3>
+                                    <h3>星宏视讯</h3>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a href="case_info_4_100.html">
-                            <div class="pic"><img src="images/14429905909518.jpg"></div>
-                            <div class="hover">
-                                <b></b>
-                                <div class="txt">
-                                    <img src="images/logo_small.png" alt="">
-                                    <h3>中粮集团</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="case_info_4_70.html">
-                            <div class="pic"><img src="images/14429012824914.jpg"></div>
-                            <div class="hover">
-                                <b></b>
-                                <div class="txt">
-                                    <img src="images/logo_small.png" alt="">
-                                    <h3>十方天使基金</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+
                 </ul>
             </div>
             <div class="c"></div>
@@ -452,7 +429,6 @@
 <script type="text/javascript" src="js/flexslider.js"></script>
 <script type="text/javascript" src="js/banner.js"></script>
 <script type="text/javascript">
-
     $("#sub").click(function(e) {
         var name=$("#name").val();
         var tel=$("#tel").val();
@@ -470,7 +446,6 @@
             alert("请输入您的需求");
             return false;
         }
-
         $.ajax({
             url:"ajax_guest.php",
             type:'GET',
@@ -493,11 +468,9 @@
         $(this).find('.pic-icon').animate({top:-134});
         $(this).find('img:first').fadeOut(100);
     })
-
     $('.case-img').hover(function(){
         $(this).toggleClass('on');
     })
-
     $('.map .btn').click(function(){
         $('.map-pop').show();
         $(this).parents('.map').addClass('map-big-i');
@@ -509,7 +482,6 @@
             $('.map-big-i').height($(window).height()-50-80);
             $("html, body").animate({ scrollTop: $(document).height() }, 1000);
         }else{
-
             $('.map-pop').height($(window).height()-344);
             $('.map-big-i').height($(window).height()-344);
             $("html, body").animate({ scrollTop: $(document).height() }, 1000);
@@ -521,7 +493,6 @@
         $(this).parents('.map').removeClass('map-big-i');
         $('.map').height('107');
     })
-
 </script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5b31afcdea6af2d7d3677ca5c1a22c46"></script>
 <script type="text/javascript" src="js/map.js"></script>
